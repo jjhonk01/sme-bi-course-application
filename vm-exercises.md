@@ -9,69 +9,111 @@
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [X] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix` or `ex-1-initial.yxmd`, depending if you are auditioning for a Tableau/Power BI/Alteryx course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix` or `ex-1-sol.yxmd`
+- [X] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix` or `ex-1-initial.yxmd`, depending if you are auditioning for a Tableau/Power BI/Alteryx course.
+- [X] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix` or `ex-1-sol.yxmd`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+To successfully configure and use the append tool with the datasets provided.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+There are numerous use cases where an append may be needed. Whenever a cartesian join is called for, think of the append tool. Multiplying one dataset by the other, you can expect an error if your source is more than 16 rows. This can be manually bypassed if needed, but prevents long processing times in the case of a mistake.
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Bring an append tool out to the canvas
+- Connect the datasets to the correct inputs of the append tool
+- Connect a browse tool to the output of the append tool
+- Click run and observe results
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+How many records are in your result?
+240
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="1085" alt="image" src="https://github.com/jjhonk01/sme-bi-course-application/assets/70289747/b24be671-4936-4777-a1be-387527e4cfe4">
+
 
 ## 2nd VM Exercise
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [X] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-1-initial.yxmd`, depending if you are auditioning for a Tableau/Power BI/Alteryx course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix` or `ex-1-sol.yxmd`
+- [X] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-1-initial.yxmd`, depending if you are auditioning for a Tableau/Power BI/Alteryx course.
+- [X] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix` or `ex-1-sol.yxmd`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+To successfully configure and use the join tool configured to join by specific fields with the datasets provided.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+To join by specific fields is best practice when joining two datasets together. Choose whether you need the Left, Right, or Inner Join outputs, and place your browse or output data appropriately. The column used in a join should be unique.
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Bring a join tool out to the canvas
+- Connect the datasets to the correct inputs of the join tool
+- Configure the join tool to join by specific fields, and select the ID columns from the right and left datasets.
+- Connect a browse tool to the output of the join tool
+- Click run and observe results
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+What is the value in the "Specialization:" column in row 3?
+Bookkeeping,Securities,Taxation
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="1920" alt="image" src="https://github.com/jjhonk01/sme-bi-course-application/assets/70289747/7c3e4402-02c3-4f84-b1be-c3b8faf2753e">
+
+## 3rd VM Exercise
+
+#### Dataset
+
+- [X] Add datasets used to the `datasets/` folder
+
+#### Files
+
+- [X] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix` or `ex-1-initial.yxmd`, depending if you are auditioning for a Tableau/Power BI/Alteryx course.
+- [X] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix` or `ex-1-sol.yxmd`
+
+#### Learning Objective
+
+To successfully configure and use the join tool configured to join by record position with the datasets provided.
+
+#### Context
+
+To join by record position is sometimes necessary when joining two datasets together. Choose whether you need the Left, Right, or Inner Join outputs, and place your browse or output data appropriately. The record position option should only be used when there is 1 row in each dataset or when it can be verified that the rows match up correctly (such as the example in this exercise).
+
+#### Steps to be executed by the student (max 6)
+
+*Each bulleted instruction is a complete sentence that describes a specific task.*
+
+- Bring a join tool out to the canvas
+- Connect the datasets to the correct inputs of the join tool
+- Configure the join tool to join by record position, no further configuration is needed.
+- Connect a browse tool to the output of the join tool
+- Click run and observe results
+
+#### Exercise question:
+What number matched with letter Z?
+26
+
+#### End goal:
+
+<img width="1090" alt="image" src="https://github.com/jjhonk01/sme-bi-course-application/assets/70289747/95329b2f-375b-45ca-abf4-dcb97dbea306">
+
 
