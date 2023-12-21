@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\honke\OneDrive\Documents\Intro to Alteryx Append 1.xlsx|||`Sheet1$`</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Intro to Alteryx Append 1.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Job Function:" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Append 1.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\honke\OneDrive\Documents\Intro to Alteryx Append 2.xlsx|||`Sheet2$`</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Intro to Alteryx Append 2.xlsx
+Query=`Sheet2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Location" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Append 2.xlsx|||`Sheet2$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Append Starter File</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="86b80148-0327-4183-9189-8b38c18c3c63" />
+      <Telemetry>
+        <PreviousWorkflowId value="fbf4715a-ad89-447f-a474-96c45e9cd105" />
+        <OriginWorkflowId value="fbf4715a-ad89-447f-a474-96c45e9cd105" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

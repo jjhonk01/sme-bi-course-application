@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 1.xlsx|||`Join by ID 1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Intro to Alteryx Join by ID 1.xlsx
+Query=`Join by ID 1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 1.xlsx|||`Join by ID 1$`" type="Double" />
+            <Field name="Job Name" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 1.xlsx|||`Join by ID 1$`" type="V_String" />
+            <Field name="Company Name" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 1.xlsx|||`Join by ID 1$`" type="V_String" />
+            <Field name="JD" size="7293" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 1.xlsx|||`Join by ID 1$`" type="V_WString" />
+            <Field name="Skills" size="274" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 1.xlsx|||`Join by ID 1$`" type="V_String" />
+            <Field name="Date Posted" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 1.xlsx|||`Join by ID 1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Intro to Alteryx Join by ID 2.xlsx
+Query=`Join by ID 2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="Double" />
+            <Field name="YOE" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Location" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Website" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Job Function:" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Industry:" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Specialization:" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Qualification:" size="449" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Hiring Location:" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Role:" size="255" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="V_String" />
+            <Field name="Vacancies:" source="File: C:\Users\honke\OneDrive\Documents\Intro to Alteryx Join by ID 2.xlsx|||`Join by ID 2$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Join by ID Starter File</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e59093ab-e8c7-42b3-a4ad-f59a5de28505" />
+      <Telemetry>
+        <PreviousWorkflowId value="8c81b840-2fba-485f-ad5d-49c94bfff8bf" />
+        <OriginWorkflowId value="999a54ae-3e12-4dce-b261-2ecd54d41c47" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
