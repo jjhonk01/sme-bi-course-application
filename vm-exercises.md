@@ -114,6 +114,7 @@ What number matched with letter Z?
 
 #### End goal:
 
-<img width="1090" alt="image" src="https://github.com/jjhonk01/sme-bi-course-application/assets/70289747/95329b2f-375b-45ca-abf4-dcb97dbea306">
+<img width="1063" alt="image" src="https://github.com/jjhonk01/sme-bi-course-application/assets/70289747/46cf7e63-e950-4027-9eb9-164a037a1fbe">
+
 
 
