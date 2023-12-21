@@ -15,7 +15,7 @@ Screencasts are used in business intelligence (BI) or Alteryx courses to demonst
  
  *Tips for recording the screencast: make sure the audio narration is clear and not too fast to follow. It’s often easier to first record the audio and then record your screen while listening to the audio.* 
 
-- [ ] Upload your screencast to your platform of choice (e.g., Dropbox, Google Drive) and paste the link here: 
+- [X] Upload your screencast to your platform of choice (e.g., Dropbox, Google Drive) and paste the link here: https://www.dropbox.com/scl/fi/t0youg9eid2qrz2s38b07/Data-Manipulation-in-Alteryx-Chapter-1-Appends-and-Joins.mkv?rlkey=jjx2ljhesah4yffb9ixhm6m3x&dl=0
 
 ### Step 2: Virtual Machine Exercises
 
